@@ -20,6 +20,12 @@ public class TestFiguras {
 		System.out.println(rectangulo.calcularArea());
 		System.out.println(circulo.calcularArea());
 		
+		Esfera esfera = new Esfera();
+		Esfera esfera2 = new Esfera(3);
+		System.out.println(esfera.radio);
+		System.out.println(esfera2.radio);
+		System.out.println(esfera2.calcularArea());
+		
 		
 		
 		
